@@ -295,7 +295,7 @@ const WishesCard = () => {
           <div className="flex justify-center space-x-3">
             <Heart className="w-8 h-8 text-pink-500 fill-pink-500 animate-pulse" />
             <h3 className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-600">
-              My Wishes for You
+              My Wishes for You Lokeswari🫰🏻🫶🏻
             </h3>
             <Heart className="w-8 h-8 text-pink-500 fill-pink-500 animate-pulse" />
           </div>
@@ -398,7 +398,7 @@ const App = () => {
             <WishesCard />
             
             <div className="text-center pb-8">
-              <p className="text-gray-600 text-sm">Made with 💖 just for you</p>
+              <p className="text-gray-600 text-sm">Made with 💖 just for us</p>
             </div>
           </div>
         </div>
