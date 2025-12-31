@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Heart, X } from 'lucide-react';
+import image1 from './assets/image1.jpeg';
+import image2 from './assets/image2.jpeg';
+import image3 from './assets/image3.jpeg';
+import image4 from './assets/image4.jpeg'; 
+import image5 from './assets/image5.jpeg';
+import image6 from './assets/image6.jpeg';
+import image7 from './assets/image7.jpeg';
 
 // Confetti Component
 const Confetti = () => {
@@ -221,10 +228,11 @@ const ImageCarousel = () => {
   
   // Placeholder images - replace with actual image URLs
   const images = [
-    { url: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800', caption: 'Beautiful Moments' },
-    { url: 'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=800', caption: 'Sweet Memories' },
-    { url: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800', caption: 'Forever Together' },
-    { url: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800', caption: 'Love & Laughter' }
+    { url: image1, caption: 'Beautiful Moments 💕' },
+    { url: image2, caption: 'Breathing in Peace 🌳' },
+    { url: image7, caption: 'Where Beauty Meets Tradition ❤️' },
+    { url: image5, caption: 'Nothing Fancy, Just Me 😎' },
+    { url: image4, caption: 'Love & Laughter 😊' }
   ];
 
   useEffect(() => {
@@ -357,7 +365,7 @@ const App = () => {
     if (stage === 'countdown') {
       const checkDate = setInterval(() => {
         const currentYear = new Date().getFullYear();
-        if (currentYear >= 2025) {
+        if (currentYear >= 2026) {
           setStage('opened');
           setShowModal(true);
         }
