@@ -231,7 +231,6 @@ const ImageCarousel = () => {
     { url: image1, caption: 'Beautiful Moments 💕' },
     { url: image3, caption: 'Breathing in Peace 🌳' },
     { url: image7, caption: 'Where Beauty Meets Tradition ❤️' },
-    { url: image6, caption: 'Nothing Fancy, Just Me 😎' },
     { url: image4, caption: 'Love & Laughter 😊' }
   ];
 
